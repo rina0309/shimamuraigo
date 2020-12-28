@@ -175,4 +175,33 @@ footer__inner {
 .player__title {
   font-size: 24px;
 }
+
+.player__mass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.player__name {
+  font-size: 22px;
+}
+
+.player__text {
+  margin: 55px 0 30px;
+}
+
+.player__history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.player__history p {
+  width: 40%;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
