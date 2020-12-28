@@ -20,6 +20,7 @@ body{
     color:$base-color;
     background-color: #F8F8F8;
     font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 
@@ -81,6 +82,8 @@ a{
 
 }
 
+
+/*home*/
 
 /*news
 -----------------------------------*/
@@ -164,6 +167,30 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin:50px 0 100px;
+  }
+
+}
+
+
+
+
+
+/*affiliation*/
+
+.player{
+    &__titleAll{
+    text-align: center;
+    width: 20%;
+  }
+
+  &__sub-title{
+    color: #8E8E8E;
+    font-size: 14px;
+
+  }
+
+  &__title{
+    font-size: 24px;
   }
 
 }
