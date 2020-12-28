@@ -21,6 +21,7 @@ body{
     background-color: #F8F8F8;
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
+    line-height: 2;
 }
 
 
@@ -198,13 +199,19 @@ footer{
 
   &__mass{
      @include basic-flex;
+     align-items: center;
+     margin: 75px 0;
+  }
+
+  &__text{
+    margin-left: 120px;
   }
 
   &__name{
     font-size: 22px;
   }
 
-  &__text{
+  &__form{
     margin: 55px 0 30px;
   }
 
@@ -213,7 +220,7 @@ footer{
 
     p{
       width: 40%;
-      margin-right: 10px;
+      margin-right: 30px;
     }
   }
 
