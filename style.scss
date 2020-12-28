@@ -1,7 +1,7 @@
 $base-color:#3C3C3C;
 
 @mixin basic-inner{
-  width: 83%;
+  width: 90%;
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -16,7 +16,6 @@ $base-color:#3C3C3C;
 ---------------------------*/
 
 body{
-    @include basic-inner;
     color:$base-color;
     background-color: #F8F8F8;
     font-size: 18px;
@@ -44,6 +43,7 @@ a{
 .header{
 
   &__inner{
+    @include basic-inner;
     @include basic-flex;
     justify-content: space-between;
     align-items: center;
@@ -203,12 +203,20 @@ footer{
      margin: 75px 0;
   }
 
+  &__massRight{
+     @include basic-flex;
+     align-items: center;
+     margin: 75px 0;
+     flex-direction:row-reverse;
+  }
+
   &__text{
     margin-left: 120px;
   }
 
   &__name{
     font-size: 22px;
+    font-weight: normal;
   }
 
   &__form{
@@ -219,7 +227,6 @@ footer{
     @include basic-flex;
 
     p{
-      width: 40%;
       margin-right: 30px;
     }
   }

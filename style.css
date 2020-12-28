@@ -2,9 +2,6 @@
 /* ベース
 ---------------------------*/
 body {
-  width: 83%;
-  max-width: 1170px;
-  margin: 0 auto;
   color: #3C3C3C;
   background-color: #F8F8F8;
   font-size: 18px;
@@ -29,6 +26,9 @@ a {
 /* header
 ------------------------------*/
 .header__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,12 +189,29 @@ footer__inner {
   margin: 75px 0;
 }
 
+.player__massRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 75px 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .player__text {
   margin-left: 120px;
 }
 
 .player__name {
   font-size: 22px;
+  font-weight: normal;
 }
 
 .player__form {
@@ -210,7 +227,6 @@ footer__inner {
 }
 
 .player__history p {
-  width: 40%;
   margin-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */
