@@ -55,7 +55,7 @@ a {
 }
 
 .g-nav__item {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .g-nav__link {
@@ -100,7 +100,7 @@ a {
 /*access
 --------------------------*/
 .access {
-  margin: 160px 0;
+  margin: 160px 0 100px;
 }
 
 .access__titleAll {
@@ -140,5 +140,22 @@ a {
 
 .access__icon {
   padding-right: 20px;
+}
+
+/*fotter
+----------------------------*/
+footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px 0 100px;
 }
 /*# sourceMappingURL=style.css.map */
