@@ -25,10 +25,13 @@ a {
 
 /* header
 ------------------------------*/
-.header__inner {
+.header {
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.header__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +229,8 @@ footer__inner {
       flex-wrap: wrap;
 }
 
-.player__history p {
-  margin-right: 30px;
+.player__list {
+  list-style: none;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ $base-color:#3C3C3C;
 
 @mixin basic-inner{
   width: 90%;
-  max-width: 1170px;
+  max-width:1170px;
   margin: 0 auto;
 }
 
@@ -42,8 +42,9 @@ a{
 ------------------------------*/
 .header{
 
-  &__inner{
     @include basic-inner;
+
+  &__inner{
     @include basic-flex;
     justify-content: space-between;
     align-items: center;
@@ -226,9 +227,10 @@ footer{
   &__history{
     @include basic-flex;
 
-    p{
-      margin-right: 30px;
-    }
   }
 
+  &__list{
+      list-style: none;
+      margin-right: 10px;
+    }
 }
