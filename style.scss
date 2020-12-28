@@ -1,0 +1,115 @@
+$base-color:#3C3C3C;
+
+@mixin basic-inner{
+  width: 83%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@mixin basic-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* ベース
+---------------------------*/
+
+body{
+    @include basic-inner;
+    color:$base-color;
+    background-color: #F8F8F8;
+    font-size: 18px;
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* header
+------------------------------*/
+.header{
+
+  &__inner{
+    @include basic-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 0 100px;
+  }
+
+}
+
+
+/* g-nav
+-------------------------------*/
+.g-nav{
+
+  &__list{
+    @include basic-flex;
+    align-items: center;
+  }
+
+  &__item{
+    margin-left: 20px;
+  }
+
+  &__link{
+    color: $base-color;
+  }
+}
+
+/*media
+----------------------------*/
+
+.media{
+
+    &__text{
+        text-align: center;
+    }
+
+}
+
+
+/*news
+-----------------------------------*/
+
+.news{
+
+  &__titleAll{
+    text-align: center;
+    width: 20%;
+  }
+
+  &__sub-title{
+    color: #8E8E8E;
+    font-size: 14px;
+
+  }
+
+  &__title{
+    font-size: 24px;
+  }
+
+  &__day{
+    color: #8E8E8E;
+    font-size: 14px;
+    margin: 15px 0;
+  }
+
+  &__mass{
+    margin-left: 200px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #707070;
+  }
+}
