@@ -142,29 +142,22 @@ a {
   font-size: 24px;
 }
 
-.access__main {
+.access__date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10px 0 0 200px;
+  margin-left: 200px;
 }
 
-.access__contact {
-  width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.access__box {
+  margin: 20px 20px 0 0;
 }
 
-.access__icon {
-  padding-right: 20px;
+.access__box__dt {
+  font-size: 18px;
+  letter-spacing: 0.5em;
 }
 
 /*fotter
