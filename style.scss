@@ -76,7 +76,7 @@ a{
   }
 
   &__link{
-    color: $base-color;
+    color: #626262;
   }
 }
 
@@ -87,7 +87,7 @@ a{
 
     &__text{
         text-align: center;
-        margin:160px 0;
+        margin:110px 0;
     }
 
 }
@@ -179,13 +179,24 @@ a{
 /*fotter
 ----------------------------*/
 
-footer{
+.footer{
 
-    &__inner{
+  padding: 70px 0;
+
+  &__inner{
+    @include basic-inner;
+
+  }
+
+  &__flex{
     @include basic-flex;
     justify-content: space-between;
     align-items: center;
-    margin:50px 0 100px;
+  }
+
+  &__copy{
+    margin-top:100px;
+    text-align: center;
   }
 
 }
