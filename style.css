@@ -111,7 +111,7 @@ a {
 }
 
 .news__item {
-  margin-left: 200px;
+  margin-left: 20%;
   padding-bottom: 15px;
   border-bottom: 1px solid #707070;
 }
@@ -148,15 +148,15 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: 200px;
+  margin-left: 20%;
 }
 
 .access__box {
   margin: 20px 20px 0 0;
 }
 
-.access__box__dt {
-  font-size: 18px;
+.access__dt {
+  font-size: 22px;
   letter-spacing: 0.5em;
 }
 
@@ -269,5 +269,101 @@ a {
 .player__list {
   list-style: none;
   margin-right: 10px;
+}
+
+/*lesson
+-------------------------------*/
+.lesson__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.lesson__titleAll {
+  text-align: center;
+  width: 20%;
+}
+
+.lesson__sub-title {
+  color: #8E8E8E;
+  font-size: 14px;
+}
+
+.lesson__title {
+  font-size: 24px;
+}
+
+.lesson__list {
+  margin-left: 20%;
+  list-style: square;
+}
+
+.lesson__text {
+  margin: 60px 0 60px 20%;
+}
+
+/*lessonday
+-------------------------------*/
+.lessonday__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.lessonday__titleAll {
+  text-align: center;
+  width: 20%;
+}
+
+.lessonday__sub-title {
+  color: #8E8E8E;
+  font-size: 14px;
+}
+
+.lessonday__title {
+  font-size: 24px;
+}
+
+.lessonday__list {
+  margin-left: 20%;
+}
+
+.lessonday__image {
+  margin: 40px 0 65px 20%;
+  width: 50%;
+}
+
+/*teacher
+-------------------------------*/
+.teacher__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.teacher__titleAll {
+  text-align: center;
+  width: 20%;
+}
+
+.teacher__sub-title {
+  color: #8E8E8E;
+  font-size: 14px;
+}
+
+.teacher__title {
+  font-size: 24px;
+}
+
+.teacher__card {
+  margin-left: 20%;
+}
+
+.teacher__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
