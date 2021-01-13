@@ -367,6 +367,8 @@ a {
       flex-wrap: wrap;
 }
 
+/*classroom
+----------------------------------*/
 .classroom__inner {
   width: 90%;
   max-width: 1170px;
@@ -394,5 +396,31 @@ a {
 .classroom__image {
   margin: 40px 0 65px 20%;
   width: 70%;
+}
+
+/*taiseikai
+----------------------------------*/
+.taiseikai__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.taiseikai__titleAll {
+  text-align: center;
+  width: 20%;
+}
+
+.taiseikai__sub-title {
+  color: #8E8E8E;
+  font-size: 14px;
+}
+
+.taiseikai__title {
+  font-size: 24px;
+}
+
+.taiseikai__text {
+  margin-left: 160px;
 }
 /*# sourceMappingURL=style.css.map */
