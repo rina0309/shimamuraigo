@@ -423,4 +423,62 @@ a {
 .taiseikai__text {
   margin-left: 160px;
 }
+
+/*admission
+----------------------------------*/
+.admission__inner {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.admission__titleAll {
+  text-align: center;
+  width: 20%;
+}
+
+.admission__sub-title {
+  color: #8E8E8E;
+  font-size: 14px;
+}
+
+.admission__title {
+  font-size: 24px;
+}
+
+.admission__tbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.admission__tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.admission__th {
+  border: 1px solid #3C3C3C;
+  background-color: #fff;
+  padding: 10px 0;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.admission__td {
+  border: 1px solid #3C3C3C;
+  border-top: none;
+  background-color: #fff;
+  padding: 15px 0;
+  width: 200px;
+}
 /*# sourceMappingURL=style.css.map */

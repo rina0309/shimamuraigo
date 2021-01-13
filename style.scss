@@ -443,6 +443,59 @@ a{
     margin-left:160px;
   }
 
+}
 
+/*admission
+----------------------------------*/
+
+.admission{
+
+
+  &__inner{
+    @include basic-inner;
+  }
+
+  &__titleAll{
+    text-align: center;
+    width: 20%;
+  }
+
+  &__sub-title{
+    color: #8E8E8E;
+    font-size: 14px;
+
+  }
+
+  &__title{
+    font-size: 24px;
+  }
+
+  &__tbody{
+    @include basic-flex;
+  }
+
+  &__tr{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-right: 70px;
+    }
+
+  &__th{
+    border: 1px solid #3C3C3C;
+    background-color: #fff;
+    padding: 10px 0;
+    width: 200px;
+    margin-top: 20px;
+  }
+
+
+  &__td{
+    border: 1px solid #3C3C3C;
+    border-top: none;
+    background-color: #fff;
+    padding: 15px 0;
+    width: 200px;
+  }
 
 }
