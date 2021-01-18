@@ -37,13 +37,20 @@
         </div>
     </header>
     <main>
-
+                      <?php if( have_posts()):?>
+        <?php while(have_posts()): the_post();?>
+          <article id="post-<?php the_ID();?><?php post_class('');?>">
+                <h2><?php the_title();?></h2>
+                <p><?php the_content();?></p>
+            </article>
+                  <?php endwhile;?>
+                  <?php endif; ?>
 
     </main>
     <footer class="footer">
         <div class="footer__inner">
             <div class="footer__flex">
-                <h1><img src="images/logo_1.png" alt="島村囲碁クラブ"></h1>
+                <h1><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
                 <nav class="g-nav">
                     <ul class="g-nav__list">
                         <li class="g-nav__item">

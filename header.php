@@ -11,11 +11,11 @@
   <?php wp_body_open(); ?>
     <header>
         <div class="header__inner">
-            <h1><a href="home.html"><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
+            <h1><a href="<?php echo home_url('/');?>"><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
             <nav class="g-nav">
                 <ul class="g-nav__list">
                     <li class="g-nav__item">
-                        <a href="fee.html" class="g-nav__link">料金</a>
+                        <a href="http://localhost/igo/fee" class="g-nav__link">料金</a>
                     </li>
                     <li class="g-nav__item">
                         <a href="lesson.html" class="g-nav__link">初心者・段位者レッスン【浩揮会】</a>
