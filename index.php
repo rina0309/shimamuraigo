@@ -16,23 +16,23 @@
         <div class="header__image"><img src="<?php echo get_theme_file_uri('images/header.png'); ?>" alt="">
         </div>
         <div class="header__inner">
-            <h1><a href="home.html"><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
+            <h1><a href="<?php echo home_url('/');?>"><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
             <nav class="g-nav">
                 <ul class="g-nav__list">
                     <li class="g-nav__item">
-                        <a href="fee.html" class="g-nav__link">料金</a>
+                        <a href="<?php echo home_url('/');?>" class="g-nav__link">料金</a>
                     </li>
                     <li class="g-nav__item">
-                        <a href="lesson.html" class="g-nav__link">初心者・段位者レッスン【浩揮会】</a>
+                        <a href="lesson.php" class="g-nav__link">初心者・段位者レッスン【浩揮会】</a>
                     </li>
                     <li class="g-nav__item">
-                        <a href="affiliation.html" class="g-nav__link">プロ棋士指導碁・所属棋士</a>
+                        <a href="affiliation.php" class="g-nav__link">プロ棋士指導碁・所属棋士</a>
                     </li>
                     <li class="g-nav__item">
-                        <a href="igoclass.html" class="g-nav__link">囲碁教室</a>
+                        <a href="igoclass.php" class="g-nav__link">囲碁教室</a>
                     </li>
                     <li class="g-nav__item">
-                        <a href="taiseikai.html" class="g-nav__link">泰正会</a>
+                        <a href="taiseikai.php" class="g-nav__link">泰正会</a>
                     </li>
                 </ul>
             </nav>
@@ -60,15 +60,15 @@
                         </a>
                     </li>
                     <li class="news__item">
-                        <a href="">
-                            <p class="news__day">2020年10月28日</p>
-                            <p>11月の指導棋士出席表</p>
+                        <a href="<?php the_permalink(); ?>">
+                            <p class="news__day"><?php the_time('Y年n月j日'); ?></p>
+                            <p><?php the_title(); ?></p>
                         </a>
                     </li>
                     <li class="news__item">
-                        <a href="">
-                            <p class="news__day">2020年09月30 日</p>
-                            <p>10月の指導棋士出席表</p>
+                        <a href="<?php the_permalink(); ?>">
+                            <p class="news__day"><?php the_time('Y年n月j日'); ?></p>
+                            <p><?php the_title(); ?></p>
                         </a>
                     </li>
                 </ul>
