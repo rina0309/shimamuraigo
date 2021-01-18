@@ -37,60 +37,8 @@
         </div>
     </header>
     <main>
-        <p class="media__text">「島村囲碁クラブ」は、創業52年、名駅三丁目にある名古屋最大の囲碁クラブです。
-            <br>・毎日、プロ棋士の指導碁あり ・フリーの方、大歓迎
-            <br>・初心者、級位者への指導あり ・団体様の御予約可
-            御来店、心よりお待ちしております。
-        </p>
 
-        <div class="news">
-            <div class="news__inner">
-                <div class="news__titleAll">
-                    <p class="news__sub-title">NEWS</p>
-                    <h2 class="news__title">お知らせ</h2>
-                </div>
 
-                <ul class="news__list">
-                    <li class="news__item">
-                        <p class="news__day">2020年11月26日</p>
-                        <p>12月の指導棋士出席表</p>
-                    </li>
-                    <li class="news__item">
-                        <p class="news__day">2020年10月28日</p>
-                        <p>11月の指導棋士出席表</p>
-                    </li>
-                    <li class="news__item">
-                        <p class="news__day">2020年09月30 日</p>
-                        <p>10月の指導棋士出席表</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="access">
-            <div class="access__inner">
-                <div class="access__titleAll">
-                    <p class="access__sub-title">ACCESS</p>
-                    <h2 class="access__title">交通案内</h2>
-                </div>
-
-                <div class="access__date">
-                    <dl class="access__box">
-                        <dt class="access__box__dt">住所</dt>
-                        <dd class="access__box__dd">名古屋市中村区名駅三丁目２２番８号<br>
-                            大東海ビル地下一階</dd>
-                    </dl>
-                    <dl class="access__box">
-                        <dt class="access__box__dt">交通機関</dt>
-                        <dd class="access__box__dd">「名古屋」より徒歩7分（ユニモール⑫出口の目の前）<br>
-                            「国際センター」より徒歩3分（ユニモール⑭出口の目の前）</dd>
-                    </dl>
-                    <dl class="access__box">
-                        <dt class="access__box__dt">お問い合わせ</dt>
-                        <dd class="access__box__dd">052-589-2056</dd>
-                    </dl>
-                </div>
-            </div>
-        </div>
     </main>
     <footer class="footer">
         <div class="footer__inner">
