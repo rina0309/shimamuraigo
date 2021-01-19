@@ -17,6 +17,30 @@
         </div>
         <div class="header__inner">
             <h1><a href="<?php echo home_url('/');?>"><img src="<?php echo get_theme_file_uri('images/logo_1.png'); ?>" alt="島村囲碁クラブ"></a></h1>
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                    <ul class="g-nav__list">
+                        <li class="g-nav__item">
+                            <a href="<?php echo home_url('fee/');?>" class="g-nav__link"></a>
+                        </li>
+                        <li class="g-nav__item">
+                            <a href="<?php echo home_url('fee/');?>lesson.html" class="g-nav__link">初心者・段位者レッスン【浩揮会】</a>
+                        </li>
+                        <li class="g-nav__item">
+                            <a href="<?php echo home_url('fee/');?>affiliation.html" class="g-nav__link">プロ棋士指導碁・所属棋士</a>
+                        </li>
+                        <li class="g-nav__item">
+                            <a href="<?php echo home_url('fee/');?>igoclass.html" class="g-nav__link">囲碁教室</a>
+                        </li>
+                        <li class="g-nav__item">
+                            <a href="<?php echo home_url('fee/');?>taiseikai.html" class="g-nav__link">泰正会</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <nav class="g-nav">
                 <ul class="g-nav__list">
                     <li class="g-nav__item">
